@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build & WXT generated output
+.output/
+.wxt/
+dist/
+build/
+coverage/
+*.zip
+*.crx
+*.pem
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment & secrets
+.env
+.env.*
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

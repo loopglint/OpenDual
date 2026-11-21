@@ -10,6 +10,7 @@
 ![WXT](https://img.shields.io/badge/Built%20with-WXT%20%2B%20React%2019-10B981?style=flat-square&logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Ollama Ready](https://img.shields.io/badge/Local%20AI-Ollama%20Ready-111827?style=flat-square)
+![License: MIT](https://img.shields.io/badge/License-MIT-F59E0B?style=flat-square)
 
 [核心亮点](#-核心亮点) · [视频双语字幕](#-youtube--x-视频双语字幕) · [翻译与语音引擎](#-多引擎自由生态) · [快速开始](#-快速开始) · [快捷键与交互](#️-快捷键与交互) · [技术架构](#️-技术栈与项目结构)
 
@@ -147,6 +148,12 @@ OpenDual/
 │   └── ui/                        # 页面边缘悬浮球组件
 └── tests/                         # Vitest 单元测试
 ```
+
+---
+
+## 📄 开源协议
+
+本项目基于 [MIT License](./LICENSE) 开源，欢迎自由使用、修改与分发。
 
 ---
 

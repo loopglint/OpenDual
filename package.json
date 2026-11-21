@@ -1,0 +1,42 @@
+{
+  "name": "opendual",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "OpenDual 开源双语 — 开源可控的 Chrome MV3 双语网页翻译与 YouTube/X 视频字幕插件，支持生肉视频 AI 字幕、免费在线引擎、本地 Ollama、DeepSeek、OpenAI 及自定义 API",
+  "homepage": "https://github.com/loopglint/OpenDual#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loopglint/OpenDual.git"
+  },
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "zip": "wxt zip",
+    "postinstall": "wxt prepare",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "logs": "node scripts/log-collector.mjs"
+  },
+  "dependencies": {
+    "dexie": "^4.4.7",
+    "lucide-react": "^1.77.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/chrome": "^0.1.24",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@wxt-dev/module-react": "^1.2.2",
+    "happy-dom": "^21.0.4",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^5.8.3",
+    "vitest": "^5.1.1",
+    "wxt": "^0.21.5"
+  }
+}

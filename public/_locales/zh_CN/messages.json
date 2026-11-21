@@ -1,0 +1,8 @@
+{
+  "extName": {
+    "message": "OpenDual 开源双语 (Web & YouTube / X 字幕)"
+  },
+  "extDesc": {
+    "message": "OpenDual 开源双语 — 主流网页双语对照翻译，YouTube 与 X 视频智能断句双语字幕（含生肉 AI 字幕），支持免费在线翻译、本地 Ollama、DeepSeek 与 OpenAI API。"
+  }
+}
